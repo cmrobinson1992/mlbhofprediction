@@ -1,10 +1,8 @@
 # MLB Hall of Fame Prediction with Interactive Dashboard
 
-# 🧢 MLB Hall of Fame Prediction Dashboard
-
 This project provides an interactive dashboard to predict and analyze the Hall of Fame candidacy of current and former Major League Baseball (MLB) players. The tool uses player statistics from the Lahman database and a machine learning model trained on historical data to estimate the likelihood of induction into the National Baseball Hall of Fame.
 
-## 📊 Project Overview
+## Project Overview
 
 The dashboard allows users to:
 - View career and age-based statistics for MLB players.
@@ -12,13 +10,13 @@ The dashboard allows users to:
 - Compare current players with historical players at similar career stages.
 - Interpret model predictions with tools like SHAP and feature contributions.
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 - The predictive model is a **Gradient Boosted Machine (GBM)** trained on historical player stats.
 - Input features include peak career values, career totals, rate stats, and award shares.
 - The model is stored in `FinalModel.rds` and is trained using a cross-validated grid search for hyperparameter tuning.
 
-## 📁 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
